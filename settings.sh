@@ -11,13 +11,13 @@ JSRC=${JPATH}/code
 alias jcode='cd ${JSRC}'
 
 ## PS1 custom
-sudo source ${JTOOLS}/ps1_custom
+source ${JTOOLS}/ps1_custom
 
 ## git alias
-sudo source ${JTOOLS}/git_alias
+source ${JTOOLS}/git_alias
 
 ## u-boot alias
-sudo source ${JTOOLS}/u-boot.alias
+source ${JTOOLS}/u-boot.alias
 
 ## dtc
 export PATH=${JTOOLS}/dtc/bin:$PATH
@@ -45,4 +45,4 @@ alias test='echo $JT'
 
 ## jsettings
 JSCRIPT=/home/jagan/JSpace/tools/settings.sh
-alias jsettings='sudo source ${JSCRIPT}'
+alias jsettings='source ${JSCRIPT}'
