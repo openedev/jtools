@@ -1,0 +1,16 @@
+Must:
+- username should be jagan
+- should have old ssh copies
+
+Create dir:
+mkdir -p /home/jagan/JSpace/code
+
+Clone:
+cd /home/jagan/JSpace
+git clone https://github.com/openedev/jtools.git tools
+
+Install:
+cd tools
+bash install.sh
+
+Add settings.sh in ~/.bashrc

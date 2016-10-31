@@ -1,1 +1,1 @@
-git send-email --to "Shawn Guo <shawnguo@kernel.org>" --cc="linux-arm-kernel@lists.infradead.org" --cc="devicetree@vger.kernel.org" --cc="linux-kernel@vger.kernel.org" --cc="Matteo Lisi <matteo.lisi@engicam.com>" --cc="Michael Trimarchi <michael@amarulasolutions.com>" 0*
+sudo git send-email --to "Shawn Guo <shawnguo@kernel.org>" --cc="linux-arm-kernel@lists.infradead.org" --cc="devicetree@vger.kernel.org" --cc="linux-kernel@vger.kernel.org" --cc="Matteo Lisi <matteo.lisi@engicam.com>" --cc="Michael Trimarchi <michael@amarulasolutions.com>" 0*
