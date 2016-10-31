@@ -1,0 +1,13 @@
+[user]
+	name = Jagan Teki
+	email = jagan@openedev.com
+#	email = jagan@amarulasolutions.com
+[core]
+	editor = vi
+[sendemail]
+#	from = Jagan Teki <jagan@amarulasolutions.com>
+	from = Jagan Teki <jagan@openedev.com>
+	smtpencryption = tls
+	smtpserver = smtp.gmail.com
+	smtpuser = jagannadh.teki@gmail.com
+	smtpserverport = 587
