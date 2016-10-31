@@ -1,9 +1,8 @@
-alias jcode='cd /home/jagan/JSpace/code'
-
 sudo cp gitconfig ~/.gitconfig
-jcode
+
+cd /home/jagan/JSpace/code
 sudo echo 'install apt-get'
-sudo apt-get update && sudo apt-get upgrade && sudo apt-get update && sudo apt-get minicom install vim flex bison libsdl2-dev libssl-dev git-email
+sudo apt-get update && sudo apt-get upgrade && sudo apt-get update && sudo apt-get install minicom vim flex bison libsdl2-dev libssl-dev git-email
 
 sudo echo 'copy SSH keys'
 sudo chmod 600 ~/.ssh/id_rsa
@@ -23,15 +22,15 @@ sudo cp /home/jagan/JSpace/tools/buildman .buildman
 ./tools/buildman/buildman --fetch-arch
 ./tools/buildman/buildman --list-tool-chains
 
-jcode
+cd /home/jagan/JSpace/code
 sudo echo 'install dtc'
 sudo git clone git://git.kernel.org/pub/scm/utils/dtc/dtc.git
 sudo cd dtc
 sudo make
 sudo mkdir /home/jagan/JSpace/tools/dtc
-sudo make install --prefix=/home/jagan/JSpace/tools/dtc
+sudo make install PREFIX=/home/jagan/JSpace/tools/dtc
 
-jcode
+cd /home/jagan/JSpace/code
 sudo echo 'clone u-boot-imx'
 sudo git clone git://git.denx.de/u-boot-imx.git
 
