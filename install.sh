@@ -1,5 +1,6 @@
 alias jcode='cd /home/jagan/JSpace/code'
 
+sudo cp gitconfig ~/.gitconfig
 jcode
 sudo echo 'install apt-get'
 sudo apt-get update && sudo apt-get upgrade && sudo apt-get update && sudo apt-get minicom install vim flex bison libsdl2-dev libssl-dev git-email
