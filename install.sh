@@ -2,7 +2,7 @@ sudo cp gitconfig ~/.gitconfig
 
 cd /home/jagan/JSpace/code
 sudo echo 'install apt-get'
-sudo apt-get update && sudo apt-get upgrade && sudo apt-get update && sudo apt-get install minicom vim flex bison libsdl2-dev libssl-dev git-email
+sudo apt-get update && sudo apt-get upgrade && sudo apt-get update && sudo apt-get install minicom vim flex bison libsdl2-dev libssl-dev git-email exuberant-ctags
 
 sudo echo 'copy SSH keys'
 sudo chmod 600 ~/.ssh/id_rsa
